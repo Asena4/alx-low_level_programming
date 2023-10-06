@@ -1,18 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - main function prints the alphabet in lower and upper case
+ *main -  prints all single digit numbers of base 10 starting from 0
  * Return: return value is 0
  */
 int main(void)
 {
-	char letter;
+	int i;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-	{
-	if (letter != 'e' && letter != 'q')
-		putchar(letter);
-	}
-	putchar('\n');
+	for (i = 0; i < 10; i++)
+		printf("%d", i);
+	printf("\n");
 	return (0);
 }
