@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /**
- *main - main function that checks if value is positive, negative, or a zero
- *Return: This retuurns value of 0
+ *main - main function that checks if value is positive, negative, or a zero.
+ *
+ *Return: This returns value of 0.
  */
 int main(void)
 {
