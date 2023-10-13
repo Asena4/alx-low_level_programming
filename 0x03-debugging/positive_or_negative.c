@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ *positive_or_negative - checks if value is +ve, -ve, or 0
+ *@i: integer
+ *Return: void
+ */
 void positive_or_negative(int i)
 {
 	if (i > 0)
