@@ -9,8 +9,8 @@
   */
 void print_diagsums(int *a, int size)
 {
-	int count1;
-	int count2;
+	int ct1;
+	int ct2;
 	int i;
 
 	ct1 = 0;
