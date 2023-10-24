@@ -1,28 +1,19 @@
 #include <stdio.h>
 
 /**
-  * main - prints the first 52 fib
-  * Return:return value is 0
-  */
+ *main - function that sums numbers <1024 divisible by 3&5
+ *Return: value is 0
+ */
 int main(void)
 {
-	int i = 0;
-	long j = 1, k = 2;
+	int i;
+	int sum = 0;
 
-	while (i < 50)
+	for (i = 0; i < 1024; i++)
 	{
-		if (i == 0)
-			printf("%ld", j);
-		else if (i == 1)
-			printf(", %ld", k);
-		else
-		{
-			k += j;
-			j = k - j;
-			printf(", %ld", k);
-		}
-		++i;
+		if (i % 3 == 0 || i % 5 == 0)
+			sum = sum + i;
 	}
-	printf("\n");
+	printf("%d\n", sum);
 	return (0);
 }
